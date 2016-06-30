@@ -1,0 +1,7 @@
+GeneratedClasses/
+*.sql
+bin/
+target/
+.settings/
+.classpath
+.project
