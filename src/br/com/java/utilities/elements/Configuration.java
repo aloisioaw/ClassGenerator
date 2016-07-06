@@ -2,10 +2,10 @@ package br.com.java.utilities.elements;
 
 public class Configuration {
 	private String name;
-	private String type;
+	private ConfigurationValueTypes type;
 	private String value;
 
-	public Configuration(String name, String type, String value) {
+	public Configuration(String name, ConfigurationValueTypes type, String value) {
 		this.name = name;
 		this.type = type;
 		this.value = value;
@@ -19,11 +19,11 @@ public class Configuration {
 		this.name = name;
 	}
 
-	public String getType() {
+	public ConfigurationValueTypes getType() {
 		return type;
 	}
 
-	public void setType(String type) {
+	public void setType(ConfigurationValueTypes type) {
 		this.type = type;
 	}
 
